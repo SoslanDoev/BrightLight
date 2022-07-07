@@ -1,3 +1,38 @@
+/* news */
+
+.news__item-text {
+    bottom: -60%;
+}
+
+.news__item-text {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 15px;
+}
+
+/* news */
+
+/* about */
+
+.about__box-image {
+    width: 335px;
+}
+
+/* about */
+
+/* tracks */
+
+.tracks__image {
+    width: 130px;
+} 
+
+.tracks__box {
+    right: -50px;
+}
+
+/* tracks */
+
 /* events */
 
 .events__inner {
