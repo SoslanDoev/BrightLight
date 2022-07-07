@@ -1,0 +1,9 @@
+/* events */
+
+.events__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* events */
