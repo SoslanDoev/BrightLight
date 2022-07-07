@@ -1,15 +1,16 @@
 /* news */
 
-.news__item-text {
+/* .news__item-text {
     bottom: -60%;
 }
+*/
 
 .news__item-text {
     font-weight: 500;
     font-size: 13px;
     line-height: 15px;
     padding: 15px;
-}
+} 
 
 /* news */
 

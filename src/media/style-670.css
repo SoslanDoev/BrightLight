@@ -34,6 +34,21 @@
 
 /* events */
 
+/* news */
+
+.news__item:nth-child(3) {
+    display: none;
+}
+
+.news__item-text {
+    bottom: 0;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px;
+}
+
+/* news */
+
 /* blockquote */
 
 .blockquote__content {
