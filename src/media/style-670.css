@@ -1,0 +1,11 @@
+/* blockquote */
+
+.blockquote__content {
+    margin-right: 0;
+}
+
+.blockquote__text {
+    max-width: 563px;
+}
+
+/* blockquote */
