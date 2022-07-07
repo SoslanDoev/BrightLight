@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightLights</title>
+    <!-- css -->
+    <link rel="stylesheet" href="src/style.css" type="text/css">
+    <link rel="stylesheet" href="src/media/style-1080.css" type="text/css" media="screen and (max-width: 1080px)">
+    <link rel="stylesheet" href="src/media/style-830.css" type="text/css" media="screen and (max-width: 830px)">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <!-- javascript -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo">
+                        <img src="src/image/header/logoImage.png" alt="image" class="logo__image">
+                        <img src="src/image/header/logoText.png" alt="image" class="logo__text-image">
+                    </a>
+                    <div class="header__box">
+                        <button type="button" class="menu__btn menu__btn--false">
+                            <span class="menu__btn-item"></span>
+                        </button>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">News</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Music</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Media</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Tours</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <video class="video video--active" src="src/video/video.mp4" autoplay muted loop></video>
+                <div class="container">
+                    <div class="hero__inner">
+                        <p class="hero__subtitle">New Single</p>
+                        <h1 class="hero__title">War For Love</h1>
+                        <div class="player">
+                            <button class="player__start button" type="button">
+                                <svg width="22" height="25" viewBox="0 0 22 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 12.5L1.2911e-07 25L1.2219e-06 -9.6165e-07L22 12.5Z" fill="white"/>
+                                </svg>
+                            </button>
+                            <div class="progress__container">
+                                <div class="progress"></div>
+                            </div>
+                            <div class="time__container">
+                                <p class="time"></p> -
+                                <p class="time__count"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="news">
+                <div class="container">
+                    <div class="news__inner">
+                        <figure class="news__item">
+                            <img src="src/image/news/image1.jpg" alt="image" class="news__item-image">
+                            <figcaption class="news__item-text">
+                                Working on my upcoming full-lenth album that`s releasing later this year.
+                            </figcaption>
+                        </figure>
+                        <figure class="news__item">
+                            <img src="src/image/news/image2.jpg" alt="image" class="news__item-image">
+                            <figcaption class="news__item-text">
+                                Working on my upcoming full-lenth album that`s releasing later this year.
+                            </figcaption>
+                        </figure>
+                        <figure class="news__item">
+                            <img src="src/image/news/image3.jpg" alt="image" class="news__item-image">
+                            <figcaption class="news__item-text">
+                                Working on my upcoming full-lenth album that`s releasing later this year.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <div class="about__content">
+                            <h2 class="about__title title">Bright Lights</h2>
+                            <p class="about__text">
+                                Bright Lights is a multi-Grammy nominated singer, songwriter, DJ and record producer. She has written for numerous 
+                            </p>
+                            <p class="about__text">
+                                pop stars including Britney Spears, Justin Bieber, Usher and Beyoncé. Her catalog has amassed over 1 billion streams worldwide. More than 100 million of those streams can be attributed to her artist career and include such hits as Porter Robinson's "Language," 3LAU's "How You Love Me" and her own single "Runaway." She was also a featured vocalist on Zedd's #1 Clarity album. Her latest music video, "Put It Down," reached 1 million streams in the first week, releasing independently. Bright Lights is currently in the studio working on a self-produced album slated for release in 2020.       
+                            </p>
+                            <div class="about__items">
+                                <div class="about__item">
+                                    <p class="about__item-text">
+                                        Based in: Los Angeles
+                                    </p>
+                                </div>
+                                <div class="about__item">
+                                    <p class="about__item-text">
+                                        Founded in 2011
+                                    </p>
+                                </div>
+                                <div class="about__item">
+                                    <p class="about__item-text">
+                                        Genre: #DancePop 
+                                    </p>
+                                </div>
+                                <div class="about__item">
+                                    <p class="about__item-text">
+                                        Label: 333 Recordings
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__box">
+                            <img src="src/image/about/image.png" alt="image" class="about__box-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <blockquote class="blockquote">
+                <div class="container">
+                    <div class="blockquote__inner">
+                        <div class="blockquote__content">
+                            <p class="blockquote__text">
+                                “In an age where mainstream music is designed to be as easily consumed as possible, listening to Bright Lights is refreshing, to say the least. Her sound is perfect for radio but complex enough to separate her from other pop newcomers.”
+                            </p>
+                            <a href="#" class="blockquote__link">PopULove.net</a>
+                        </div>
+                        <div class="blockquote__box">
+                            <img src="src/image/blockqoute/image.png" alt="image" class="blockquote__image">
+                        </div>
+                    </div>
+                </div>
+            </blockquote>
+            <section class="tracks">
+                <div class="container">
+                    <div class="tracks__inner">
+                        <div class="tracks__box">
+                            <img src="src/image/tracks/image.png" alt="image" class="tracks__image">
+                        </div>
+                        <div class="tracks__content">
+                            <h2 class="tracks__title title">Last tracks</h2>
+                            <div class="tracks__audio">
+                                <audio class="audio" src="src/audio/anna_asti_-_po_baram_muzati.net.mp3"></audio>
+                                <button class="audio__play button" type="button">
+                                    <svg width="22" height="25" viewBox="0 0 22 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22 12.5L1.2911e-07 25L1.2219e-06 -9.6165e-07L22 12.5Z" fill="white"/>
+                                    </svg>
+                                </button>
+                                <div class="progress__container-audio progress__container">
+                                    <div class="progress__audio progress"></div>
+                                </div>
+                                <div class="audio__time-container time__container">
+                                    <p class="time audio__time"></p> -
+                                    <p class="audio__time-count time__count"></p>
+                                </div>
+                            </div>
+                            <ol class="tracks__list">
+                                <li class="tracks__item tracks__item--active">
+                                    <p class="tracks__item-text">
+                                        3LAU, Bright Lights — How You Love Me
+                                    </p>
+                                </li>
+                                <li class="tracks__item">
+                                    <p class="tracks__item-text" data-url="src/audio/anna_asti_-_po_baram_muzati.net.mp3">
+                                        Bright Lights, Kaleena Zanders, Kandy — War For Love
+                                    </p>
+                                </li>
+                                <li class="tracks__item">
+                                    <p class="tracks__item-text" data-url="src/audio/index.mp3">
+                                        Pink Is Punk, Benny Benassi, Bright Lights — Ghost
+                                    </p>
+                                </li>
+                                <li class="tracks__item">
+                                    <p class="tracks__item-text">
+                                        Hardwell, Dyro, Bright Lights — Never Say Goodbye
+                                    </p>
+                                </li>
+                                <li class="tracks__item">
+                                    <p class="tracks__item-text">
+                                        Zeds Dead, Dirtyphonics, Bright Lights — Where Are You Now
+                                    </p>
+                                </li>
+                                <li class="tracks__item">
+                                    <p class="tracks__item-text">
+                                        Zedd, Bright Lights — Follow You Down
+                                    </p>
+                                </li>
+                            </ol>
+                            <div class="tracks__contacts">
+                                <h3 class="tracks__contacts-title">Follow me:</h3>
+                                <p class="tracks__text tracks__text-spotify">Spotify</p>
+                                <p class="tracks__text tracks__text-itunes">iTunes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery">
+                <div class="container">
+                    <div class="gallery__inner">
+                        <div class="gallery__item grid-2">
+                            <img src="src/image/gallery/Rectangle 20.png" alt="image">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="src/image/gallery/Rectangle 21.png" alt="image">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="src/image/gallery/Rectangle 22.png" alt="image">
+                        </div>
+                        <div class="gallery__item grid-2">
+                            <img src="src/image/gallery/Rectangle 23.png" alt="image">
+                        </div>
+                        <div class="gallery__item grid-center-2">
+                            <img src="src/image/gallery/Rectangle 25.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="events">
+                <div class="container">
+                    <div class="events__inner">
+                        <div class="events__item">
+                            <img src="src/image/events/image.png" alt="image" class="events__image">
+                            <div class="events__content">
+                                <h3 class="events__content-title">
+                                    Chandler, AZ
+                                </h3>
+                                <p class="events__content-text">
+                                    The Park at Wild Horse Pass
+                                </p>
+                            </div>
+                            <div class="events__content-box">
+                                <p class="events__date">
+                                    Apr 02 2021
+                                </p>
+                                <a href="#" class="events__btn">
+                                    tickets
+                                </a>
+                            </div>
+                        </div>
+                        <div class="events__item">
+                            <img src="src/image/events/image.png" alt="image" class="events__image">
+                            <div class="events__content">
+                                <h3 class="events__content-title">
+                                    Chandler, AZ
+                                </h3>
+                                <p class="events__content-text">
+                                    The Park at Wild Horse Pass
+                                </p>
+                            </div>
+                            <div class="events__content-box">
+                                <p class="events__date">
+                                    Apr 02 2021
+                                </p>
+                                <a href="#" class="events__btn">
+                                    tickets
+                                </a>
+                            </div>
+                        </div>
+                        <div class="events__item">
+                            <img src="src/image/events/image.png" alt="image" class="events__image">
+                            <div class="events__content">
+                                <h3 class="events__content-title">
+                                    Chandler, AZ
+                                </h3>
+                                <p class="events__content-text">
+                                    The Park at Wild Horse Pass
+                                </p>
+                            </div>
+                            <div class="events__content-box">
+                                <p class="events__date">
+                                    Apr 02 2021
+                                </p>
+                                <a href="#" class="events__btn">
+                                    tickets
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <a href="#" class="logo footer__logo">
+                            <img src="src/image/header/logoImage.png" alt="image" class="logo__image">
+                            <img src="src/image/header/logoText.png" alt="image" class="logo__text-image">
+                        </a>
+                    </div>
+                    <div class="footer__middle">
+                        <div class="footer__middle-box footer__middle-box--left">
+                            <p class="footer__middle-box__text">Artist Management:</p>
+                            <p class="footer__middle-box__text">EMAIL:</p>
+                        </div>
+                        <div class="footer__middle-box footer__middle-box--right">
+                            <p class="footer__middle-box__text">
+                                Jake Henny
+                            </p>
+                            <p class="footer__middle-box__text">
+                                jake@brightlightsofficial.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">
+                                <img src="src/image/footer/img1.png" class="footer__bottom-image" alt="image">
+                            </a>
+                        </div>
+                        <div class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">
+                                <img src="src/image/footer/img2.png" class="footer__bottom-image" alt="image">
+                            </a>
+                        </div>
+                        <div class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">
+                                <img src="src/image/footer/img3.png" class="footer__bottom-image" alt="image">
+                            </a>
+                        </div>
+                        <div class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">
+                                <img src="src/image/footer/img4.png" class="footer__bottom-image" alt="image">
+                            </a>
+                        </div>
+                        <div class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">
+                                <img src="src/image/footer/img5.png" class="footer__bottom-image" alt="image">
+                            </a>
+                        </div>
+                        <div class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">
+                                <img src="src/image/footer/img6.png" class="footer__bottom-image" alt="image">
+                            </a>
+                        </div>
+                    </div>
+                    <p class="footer__copyright">
+                        © 2020 DJ bright lights.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

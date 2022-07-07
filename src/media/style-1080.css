@@ -1,0 +1,147 @@
+.header__inner {
+    align-items: center;
+    position: relative;
+    z-index: 49;
+}
+
+.menu__btn {
+    border: none;
+    background-color: rgba(122, 102, 204, .5);
+    padding: 20px 5px;
+    position: relative;
+    z-index: 50;
+    display: block;
+}
+
+.menu__btn-item {
+    display: block;
+    width: 15px;
+    height: 2px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.menu__btn-item::before,
+.menu__btn-item::after {
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+}
+
+.menu__btn-item::before {
+    left: 0;
+    top: -5px;
+}
+
+.menu__btn-item::after {
+    left: 0;
+    top: 5px;
+}
+
+.menu__btn--false {
+    transform: rotate(0);
+    transition: 200ms linear;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.menu__btn--active {
+    transform: rotate(90deg);
+    transition: 200ms linear;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu--active {
+    display: block;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px 25px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+}
+
+.menu__list {
+    flex-direction: column;
+}
+
+.menu__item + .menu__item {
+    margin-left: 0;
+}
+
+/* hero */
+
+.hero__title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #FFFFFF;
+    margin-bottom: 50px;
+}
+
+/* hero */
+
+/* blockquote */
+
+.blockquote__image {
+    width: 250px;
+    height: 420px;
+    object-fit: cover;
+}
+
+/* blockquote */
+
+/* tracks */
+
+.tracks__inner {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.tracks__box {
+    position: absolute;
+    top: 50px;
+    transform: translateY(-50%);
+    right: 50px;
+}
+
+.tracks__image {
+    width: 151px;
+}
+
+/* tracks */
+
+/* gallery */
+
+.gallery__item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery__inner {
+    gap: 10px 20px;
+}
+
+/* gallery */
+
+/* events */
+
+.events__inner {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.events__image {
+    height: 150px;
+}
+
+/* events */
