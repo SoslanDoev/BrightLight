@@ -1,3 +1,39 @@
+/* logo */
+
+.logo {
+    display: flex;
+}
+
+/* logo */
+
+/* events */
+
+.events__content {
+    padding: 20px;
+}
+
+.events__content-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    opacity: 0.5;
+    margin-bottom: 3px;
+}
+
+.events__content-text {
+    font-size: 16px;
+}
+
+.events__btn {
+    padding: 6px 20px;
+}
+
+.events__date {
+    font-size: 14px;
+}
+
+/* events */
+
 /* blockquote */
 
 .blockquote__content {
@@ -9,3 +45,23 @@
 }
 
 /* blockquote */
+
+/* footer */
+
+.footer__bottom {
+    gap: 5px;
+}  
+
+.logo__image {
+    width: 30px;
+}
+
+.logo__text-image {
+    width: 120px;
+}
+
+.footer__middle-box__text {
+    font-size: 10px;
+}
+
+/* footer */
