@@ -204,6 +204,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     display: flex;
     align-items: center;
+    flex: 0 0 109px;
 }
 
 /* player */
